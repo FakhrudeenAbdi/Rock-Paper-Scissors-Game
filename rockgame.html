@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" type="text/css" href="rockgame.css">
+</head>
+<body>
+  <header>
+    <h1>Rock Paper Scissors Game</h1>
+  </header>
+
+  <main>
+    <div id="scoreboard">
+      <h2>Score</h2>
+      <div id="player1-score">
+        <span>Player 1:</span>
+        <span>0</span>
+      </div>
+      <div id="player2-score">
+        <span>Player 2:</span>
+        <span>0</span>
+      </div>
+    </div>
+
+    <div id="choices">
+      <h2>Make your choice:</h2>
+      <button id="rock"><img src="rock.png"></button>
+      <button id="paper"><img src="paper.png"></button>
+      <button id="scissors"><img src="scissors.png"></button>
+    </div>
+
+    <div id="result">
+      <h2>Result:</h2>
+      <p id="winner"></p>
+    </div>
+
+    <button id="reset">Reset</button>
+  </main>
+
+  <script src="rockgame.js"></script>
+</body>
+</html>

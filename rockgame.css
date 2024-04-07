@@ -1,0 +1,63 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: lightgray;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+
+#scoreboard {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#scoreboard h2 {
+  margin-top: 0;
+}
+
+#scoreboard span {
+  margin-right: 10px;
+}
+
+#choices {
+  margin-bottom: 20px;
+
+}
+
+
+
+#choices h2 {
+  margin-top: 0;
+}
+
+#result {
+  margin-bottom: 20px;
+}
+
+#result h2 {
+  margin-top: 0;
+}
+
+#reset {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: #459f49;
+}
